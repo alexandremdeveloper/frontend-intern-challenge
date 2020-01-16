@@ -16,56 +16,78 @@
 <body>
   <div class="container text-center">
     <header>
-      <img class="logo" src="../Assets/logo-chaordic.png">
+      <img class="logo mt-3 mb-3" src="../Assets/logo-chaordic.png">
     </header>
-    <section class="background">
-      <img class="image" src="../Assets/background-home.jpg">
-      <div class="content-text">
+    <section class="background position-relative mt-0">
+      <img class="image mx-auto" style="width: 80%" src="../Assets/background-home.jpg">
+      <div class="content-text position-absolute">
         
         <h1 class="title">Encurte seus links.</h1>
         <h3 class="text">Links são longos. Encurte os links que você deseja compartilhar, e acompanhe enquanto viajam através da Internet.</h3>
 
         <div class="input-link">
-          <div class="form__group field">
+          <div class="form__group border-warning border-bottom d-flex pt-5 field">
               <input type="input" class="form__field" placeholder="Cole o seu link aqui"  required />
-              <button class="button">ENCURTAR</button>
+              <button class="btn btn-warning">ENCURTAR</button>
           </div>
         </div>
 
       </div>
     </section>
-    <section class="col-12" class="col-12">
+
+    <section class="top-5 mt-4 col-12">
       <h3>TOP 5</h3>
         <div class="list">
             <p class="link">http://chr.dc/xyzxyz</p>
             <p>7.919</p>
         </div>
+        <hr></hr>
         <div class="list">
             <p class="link">http://chr.dc/abcabc</p>
             <p>6.899</p>
         </div>
+        <hr></hr>
         <div class="list">
             <p class="link">http://chr.dc/derder</p>
             <p>2.111</p>
         </div>
+        <hr></hr>
         <div class="list">
             <p class="link">http://chr.dc/fghfgh</p>
             <p>617</p>
         </div>
+        <hr></hr>
         <div class="list">
             <p class="link">http://chr.dc/yuiyui</p>
             <p>43</p>
         </div>
 
-    </section class="col-12">
-    <section>
-      <div class="triangle"></div>
-        <h2>HITS</h2>
-        <div>
-            <p class="number">35.713.571</p>
-        </div>
-        <p>Cliques em links</p>
     </section>
+
+    <section class="box-hits text-center container">
+      <div class="triangle position-absolute"></div>
+      <div class="box-number position-relative mt-5">
+        <h2 class="hits">HITS</h2>
+        <div class="number-click">
+          <p class="number p-0 m-0">35.713.571</p>
+          
+        </div>
+        <p class="click-link">Cliques em links</p>
+      </div>
+      
+    </section>
+
+    <footer>
+      <div class="d-flex justify-content-around mt-2">
+        <div>
+          <h3>chr.dr</h3>
+        </div>
+        <div class="social-media">
+          <img src="../Assets/icon-twitter.png">
+          <img src="../Assets/icon-facebook.png">
+        </div>
+      </div>
+    </footer>
     
   </div>
       
